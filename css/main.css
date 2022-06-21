@@ -75,3 +75,13 @@ img {
 .navbar ul {
   display: flex;
 }
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+.hero {
+  background: url('../img/home/showcase.jpg') no-repeat center center/cover;
+  color: #fff;
+  position: relative;
+  height: 100vh;
+}
