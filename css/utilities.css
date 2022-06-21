@@ -8,3 +8,44 @@
 .text-secondary {
   color: #0284d0;
 }
+
+/*------------------------------------*\
+  #BUTTONs
+\*------------------------------------*/
+.btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #0284d0;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
