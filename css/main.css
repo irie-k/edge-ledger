@@ -221,3 +221,31 @@ svg {
 .footer .social * {
   margin: 0 15px;
 }
+
+/*------------------------------------*\
+  #MOBILE
+\*------------------------------------*/
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    margin: 0 3px;
+    padding: 10px 10px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .row {
+    flex-wrap: wrap;
+  }
+
+  .team img {
+    width: 70%;
+  }
+}
