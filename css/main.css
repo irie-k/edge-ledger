@@ -201,3 +201,23 @@ svg {
   margin-top: 20px;
   padding: 12px 0;
 }
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  text-align: center;
+}
+
+.footer a *:hover {
+  color: #28a745;
+}
+
+.footer .social * {
+  margin: 0 15px;
+}
